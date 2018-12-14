@@ -1,5 +1,6 @@
 package org.apereo.cas;
 
+import org.apereo.cas.support.saml.authentication.Saml20ObjectBuilderTests;
 import org.apereo.cas.support.saml.authentication.SamlAuthenticationMetaDataPopulatorTests;
 import org.apereo.cas.support.saml.authentication.SamlAuthenticationRequestTests;
 import org.apereo.cas.support.saml.authentication.principal.SamlServiceFactoryTests;
@@ -26,6 +27,7 @@ import org.junit.runners.Suite;
     SamlCompliantUniqueTicketIdGeneratorTests.class,
     WebUtilTests.class,
     SamlServiceFactoryTests.class,
+    Saml20ObjectBuilderTests.class,
     Saml10FailureResponseViewTests.class,
     Saml10SuccessResponseViewTests.class
 })
